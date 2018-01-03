@@ -3,11 +3,18 @@ import cv2
 
 
 
-#//***********************************************************************
-#//** © Copyright 2018, Karim Botros, All rights reserved.              **
-#//** you can modify and reuse only if you mention Author               **
-#//***********************************************************************
-
+###################################################
+#  Authors:                                       #
+#                                                 #
+# Karim Botros                                    #
+# Andrew Atef Thabet Mosaad                       #
+# Hussein Mohamed Mahmouod Fouad Shaker           #
+# Ahmed Yassin Hassen Abd El Wares	              #
+# Kirollos George Lamei Girgis                    #
+#                                                 #
+# Copyrights 2018, All Rights reserved            #
+# use or modify only if you mention the Author    #
+###################################################
 
 
 IMAGE_SIZE = 200.0
@@ -62,7 +69,18 @@ while True:
            convert_rgb = not convert_rgb
            cap.set(cv2.CAP_PROP_CONVERT_RGB, convert_rgb)
 
-#//***********************************************************************
-#//** © Copyright 2018, Karim Botros, All rights reserved.              **
-#//** you can modify and reuse only if you mention Author               **
-#//***********************************************************************
+
+
+###################################################
+#  Authors:                                       #
+#                                                 #
+# Karim Botros                                    #
+# Andrew Atef Thabet Mosaad                       #
+# Hussein Mohamed Mahmouod Fouad Shaker           #
+# Ahmed Yassin Hassen Abd El Wares	              #
+# Kirollos George Lamei Girgis                    #
+#                                                 #
+# Copyrights 2018, All Rights reserved            #
+# use or modify only if you mention the Author    #
+###################################################
+
