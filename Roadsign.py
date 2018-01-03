@@ -1,9 +1,18 @@
 
 
-#//***********************************************************************
-#//** © Copyright 2018, Karim Botros, All rights reserved.              **
-#//** you can modify and reuse only if you mention Author               **
-#//***********************************************************************
+
+###################################################
+#  Authors:                                       #
+#                                                 #
+# Karim Botros                                    #
+# Andrew Atef Thabet Mosaad                       #
+# Hussein Mohamed Mahmouod Fouad Shaker           #
+# Ahmed Yassin Hassen Abd El Wares	               #
+# Kirollos George Lamei Girgis                    #
+#                                                 #
+# Copyrights 2018, All Rights reserved            #
+# use or modify only if you mention the Author    #
+###################################################
 
 
 import cv2
@@ -56,7 +65,15 @@ cv2.imshow('street image', street)
 cv2.waitKey(3000)
 
 
-#//***********************************************************************
-#//** © Copyright 2018, Karim Botros, All rights reserved.              **
-#//** you can modify and reuse only if you mention Author               **
-#//***********************************************************************
+###################################################
+#  Authors:                                       #
+#                                                 #
+# Karim Botros                                    #
+# Andrew Atef Thabet Mosaad                       #
+# Hussein Mohamed Mahmouod Fouad Shaker           #
+# Ahmed Yassin Hassen Abd El Wares	               #
+# Kirollos George Lamei Girgis                    #
+#                                                 #
+# Copyrights 2018, All Rights reserved            #
+# use or modify only if you mention the Author    #
+###################################################
