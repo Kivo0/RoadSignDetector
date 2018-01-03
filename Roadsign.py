@@ -1,3 +1,11 @@
+
+
+#//***********************************************************************
+#//** © Copyright 2018, Karim Botros, All rights reserved.              **
+#//** you can modify and reuse only if you mention Author               **
+#//***********************************************************************
+
+
 import cv2
  
 # constants
@@ -46,3 +54,9 @@ for (x,y,w,h) in roundabouts:
 # show objects on street image
 cv2.imshow('street image', street)
 cv2.waitKey(3000)
+
+
+#//***********************************************************************
+#//** © Copyright 2018, Karim Botros, All rights reserved.              **
+#//** you can modify and reuse only if you mention Author               **
+#//***********************************************************************
