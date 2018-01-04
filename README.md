@@ -17,4 +17,4 @@ This Code is written on Rasberry pi using python language
 
 
 Copyrights 2018 , All Rights Reserved.
-you can use only if you mention the Author.
+you can use only if you mention the Authors.
