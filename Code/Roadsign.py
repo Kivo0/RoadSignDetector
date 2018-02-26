@@ -26,20 +26,20 @@ roundabout_cascade = cv2.CascadeClassifier('/home/pi/Desktop/haarcascade_roundab
 street = cv2.imread('/home/pi/Desktop/roundabout2.png')
  
 # do roundabout detection on street image
-gray = cv2.cvtColor(street,cv2.COLOR_RGB2GRAY)
+gray = cv2.cvtColor(street,cv2.COLOR_RGB2GRAY) #convert rgb to gray
 roundabouts = roundabout_cascade.detectMultiScale(
     gray, 
     scaleFactor=1.4, 
     minNeighbors=1
-    )
+    ) #opencv library on roundabout detect
  
 # initialize ORB and BFMatcher
-orb = cv2.ORB_create()
-bf = cv2.BFMatcher(cv2.NORM_HAMMING,crossCheck=True)
+orb = cv2.ORB_create()  #intialize orb
+bf = cv2.BFMatcher(cv2.NORM_HAMMING,crossCheck=True)#intialize bfmatcher
  
 # find the keypoints and descriptors for roadsign image
-roadsign = cv2.imread('/home/pi/Desktop/roundabout.jpg',0)
-kp_r,des_r = orb.detectAndCompute(roadsign,None)
+roadsign = cv2.imread('/home/pi/Desktop/roundabout.jpg',0) #read image
+kp_r,des_r = orb.detectAndCompute(roadsign,None)#Matching using ORBmatcher
  
 # loop through all detected objects
 for (x,y,w,h) in roundabouts:
@@ -62,7 +62,7 @@ for (x,y,w,h) in roundabouts:
  
 # show objects on street image
 cv2.imshow('street image', street)
-cv2.waitKey(3000)
+cv2.waitKey(4000)
 
 
 ###################################################
