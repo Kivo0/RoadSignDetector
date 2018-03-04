@@ -19,7 +19,7 @@ import cv2
  
 # constants
 IMAGE_SIZE = 200.0
-MATCH_THRESHOLD = 3
+MATCH_THRESHOLD = 5
  
 # load haar cascade and street image
 roundabout_cascade = cv2.CascadeClassifier('/home/pi/Desktop/haarcascade_roundabout.xml')
